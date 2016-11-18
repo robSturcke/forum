@@ -5,7 +5,10 @@
        <p><%= @post.body %></p>
     </div>
     <div class="row">
-      <table><%= link_to "Edit", edit_post_path(@post), class: 'btn btn-success' %></table>
+      <table>
+        <li><%= link_to "Edit", edit_post_path(@post), class: 'btn btn-success' %></li>
+        <li><%= link_to "Delete Post", @post, method: :delete, class: 'btn btn-danger', data: {confirm: 'Are you sure you want to delete this post?'} %></li>
+      </table>
     </div>
   </div>
 </div>
