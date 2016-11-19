@@ -1,7 +1,12 @@
 <div class="container">
   <div class="col-md-8">
     <div class="row">
-      <h1><%= @post.title %></h1>
+      <h1>
+         <%= @post.title %> <br>
+         <small>
+           submitted <%= time_ago_in_words(@post.created_at) %> ago by <%= @post.user.username %>
+         </small>
+       </h1>
        <p><%= @post.body %></p>
     </div>
     <div class="row">
