@@ -1,24 +1,16 @@
-# README
+# Forum for HomebrewMonks network using Rails 5
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+-Topics
+has_many posts
+delete and add topics only as admin
 
-Things you may want to cover:
+-Posts
+belongs_to topic
+has_many comments
 
-* Ruby version
+-Comments
+belongs_to post
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+-Role
+user
+admin
