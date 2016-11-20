@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+     <div class="col-md-8">
+       <div class="media">
+         <br />
+         <div class="media-body">
+           <h2 class="media-heading"><%= @user.username %></h2>
+           <small>
+             <%= pluralize(@user.posts.count, 'post') %>,
+             <%= pluralize(@user.comments.count, 'comment') %>
+           </small>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <h2>Posts</h2>
+   <%= render @user.posts %>
+
+   <h2>Comments</h2>
+   <%= render @user.comments %>
+</div>
