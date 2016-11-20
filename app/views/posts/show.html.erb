@@ -1,12 +1,16 @@
 <div class="container">
   <div class="col-md-8">
     <div class="row">
-      <h1>
-         <%= @post.title %> <br>
-         <small>
-           submitted <%= time_ago_in_words(@post.created_at) %> ago by <%= @post.user.username %>
-         </small>
-       </h1>
+      <div>
+        <%= render partial: 'votes/voter', locals: { post: @post } %>
+         <h1>
+          <%= @post.title %> <br>
+          <small>
+            submitted <%= time_ago_in_words(@post.created_at) %> ago by <%= @post.user.username %>
+          </small>
+         </h1>
+       </div>
+
        <div class="row">
         <div class="col-md-8">
           <%= render partial: "labels/list", locals: { labels: @post.labels } %>
@@ -32,5 +36,16 @@
       </table>
     </div>
     <% end %>
+    <div class="col-md-4">
+     <h3>
+       <%= pluralize(@post.points, 'point') %>
+       <div>
+         <small>
+           <%= pluralize(@post.up_votes, 'up vote') %>,
+           <%= pluralize(@post.down_votes, 'down vote') %>
+         </small>
+       </div>
+     </h3>
+   </div>
   </div>
 </div>
