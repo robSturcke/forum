@@ -7,6 +7,11 @@ class User < ApplicationRecord
   has_many :posts, dependent: :destroy
   has_many :comments, dependent: :destroy
   has_many :votes, dependent: :destroy
+  has_many :favorites, dependent: :destroy
+
+  def favorite_for(post)
+     favorites.where(post_id: post.id).first
+  end
 
   private
     def set_default_role
