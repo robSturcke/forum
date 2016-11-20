@@ -9,6 +9,12 @@
        </h1>
        <p><%= @post.body %></p>
     </div>
+    <div>
+       <h3>Comments</h3>
+       <%= render @post.comments %>
+     </div>
+     <% if current_user %>
+       <%= render 'comments/form', comment: Comment.new, post: @post %>
     <div class="row">
       <table class="table">
         <tr>
@@ -17,5 +23,6 @@
         </tr>
       </table>
     </div>
+    <% end %>
   </div>
 </div>
