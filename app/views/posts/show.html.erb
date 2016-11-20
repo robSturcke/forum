@@ -10,9 +10,11 @@
        <p><%= @post.body %></p>
     </div>
     <div class="row">
-      <table>
-        <li><%= link_to "Edit", edit_topic_post_path(@post.topic, @post), class: 'btn btn-success' %></li>
-        <li><%= link_to "Delete Post", [@post.topic, @post], method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure you want to delete this post?' } %></li>
+      <table class="table">
+        <tr>
+        <td><%= link_to "Edit", edit_topic_post_path(@post.topic, @post), class: 'btn btn-success' %></td>
+        <td><%= link_to "Delete Post", [@post.topic, @post], method: :delete, class: 'btn btn-danger', data: { confirm: 'Are you sure you want to delete this post?' } %></td>
+        </tr>
       </table>
     </div>
   </div>
