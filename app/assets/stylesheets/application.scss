@@ -20,15 +20,17 @@
 
  body {
    font-family: 'Source Sans Pro', sans-serif;
+   letter-spacing: .1rem;
+ }
+
+ .bar-clr {
+   height: 5px;
+   width: 100%;
+   background-color: rgb(76, 79, 104);
  }
 
  .ion-beer{
-   font-size: 2.5rem;
-   vertical-align: center;
- }
-
- .ion-gear-a {
-   font-size: 1rem;
+   font-size: 2rem;
    vertical-align: center;
  }
 
@@ -37,6 +39,18 @@
    margin-left: auto;
    margin-right: auto;
    width: 80%;
+ }
+
+ small {
+   color: rgb(100, 100, 100);
+ }
+
+ .vote-arrows {
+   margin-right: 1rem;
+ }
+
+ .btn-primary {
+   background-color: rgb(76, 79, 104);
  }
 
  .form-control {
@@ -60,8 +74,9 @@
 }
 
 .navbar-default {
-    background-color: rgb(127, 132, 226);
+    background-color: rgb(76, 79, 104);
     border: none;
+    border-radius: 0px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -148,5 +163,5 @@
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: rgba(0,0,0, 0);
+    background-color: rgba(0,0,0, 0);
 }

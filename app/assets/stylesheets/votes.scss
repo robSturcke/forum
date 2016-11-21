@@ -1,8 +1,14 @@
 // Place all the styles related to the Votes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.ion-ios-pint {
+.ion-ios-pint,
+.ion-ios-pint-outline {
    width: 40px;
    text-align: center;
    color: rgb(255, 170, 42);
+ }
+
+ .ion-ios-pint:hover,
+ .ion-ios-pint-outline:hover {
+   color: rgb(255, 239, 207);
  }
