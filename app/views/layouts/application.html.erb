@@ -39,11 +39,11 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="icon ion-beer"> </i><%= current_user.username %> <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                  <li><%= link_to "Edit Profile", user_path(current_user) %></li>
+                  <li><%= link_to '<i class="icon ion-edit"></i> Profile'.html_safe, user_path(current_user) %></li>
                   <li role="separator" class="divider"></li>
-                  <li><%= link_to "Settings", edit_user_registration_path %></li>
+                  <li><%= link_to '<i class="icon ion-ios-gear"></i> Settings'.html_safe, edit_user_registration_path %></li>
                   <li role="separator" class="divider"></li>
-                  <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+                  <li><%= link_to '<i class="icon ion-log-out"></i> Logout'.html_safe, destroy_user_session_path, method: :delete %></li>
                 </ul>
               </li>
             <% else %>
@@ -54,7 +54,7 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-  
+
     <%= yield %>
   </body>
 </html>
