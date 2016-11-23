@@ -3,9 +3,9 @@
      <small>
        <%= comment.user.username %> commented <%= time_ago_in_words(comment.created_at) %> ago
        <% if user_is_authorized_for_comment?(comment) %>
-         | <%= link_to "Delete Comment", [comment.post, comment], class: "fa fa-remove", method: :delete, remote: true %>
+         | <%= link_to "Delete Comment", [comment.post, comment], class: "", method: :delete, remote: true %>
        <% end %>
      </small>
-     <p><%= comment.body %></p>
+     <p><%= sanitize comment.body %></p>
    </div>
  </div>

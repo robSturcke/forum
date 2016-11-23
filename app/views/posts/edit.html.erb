@@ -1,7 +1,19 @@
 <div class="container">
-  <div class="col-md-10">
-    <div class="row">
-      <%= render partial: 'form', locals: { topic: @post.topic, post: @post } %>
+  <h1>Edit Post</h1>
+  <div class="row">
+    <div class="col-md-4">
+      <p>Guidelines for Homebrew Monks Forum Posts</p>
+      <ul>
+        <li>No hate speech, trolling, being rude or offensive material</li>
+        <li>Humor posts are allowed please specify with [Humor] at start of post</li>
+        <li>Try to help organize our content with labels</li>
+        <li>Have fun!</li>
+      </ul>
+    </div>
+    <div class="col-md-10">
+      <div class="row">
+        <%= render partial: 'form', locals: { topic: @post.topic, post: @post } %>
+      </div>
     </div>
   </div>
 </diV>
