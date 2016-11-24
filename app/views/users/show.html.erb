@@ -13,10 +13,10 @@
        </div>
      </div>
    </div>
-
-   <h2>Your Posts</h2>
+   <hr>
+   <h2><%= @user.username %>'s Posts</h2>
    <%= render @user.posts %>
-
-   <h2>Your Comments</h2>
+   <hr>
+   <h2><%= @user.username %>'s Comments</h2>
    <%= render @user.comments %>
 </div>

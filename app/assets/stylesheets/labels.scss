@@ -5,3 +5,9 @@
 .btn-primary {
   background-color: rgb(76, 79, 104);
 }
+
+.btn-xs.btn-primary:hover {
+  text-decoration: none;
+  color: rgb(254, 214, 119);
+  background-color: rgb(76, 79, 104);
+}
