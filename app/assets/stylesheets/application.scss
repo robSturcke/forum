@@ -23,22 +23,26 @@
    letter-spacing: .1rem;
  }
 
- .bar-clr {
-   height: 5px;
-   width: 100%;
-   background-color: rgb(76, 79, 104);
+ .col-md-2 {
+   display: block;
  }
 
  .ion-beer{
    font-size: 2rem;
    vertical-align: center;
+   color: rgb(255, 239, 207);
+ }
+
+ .ion-beer:hover {
+   color: rgb(254, 214, 119);
  }
 
  .container {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 70%;
+   width: 80%;
+   max-width: 1100px;
  }
 
  .about-container {
@@ -50,10 +54,6 @@
 
  small {
    color: rgb(100, 100, 100);
- }
-
- .vote-arrows {
-   margin-right: 1rem;
  }
 
  .form-control {
@@ -85,20 +85,12 @@
     background-color: rgb(76, 79, 104);
     border: none;
     border-radius: 0px;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #5e5e5e;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-text {
-    color: rgb(5, 5, 5);
+    padding: 1rem;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: rgb(255, 255, 255);
+    font-size: 1.5rem;
 }
 
 .navbar-default .navbar-nav > li > a:hover,

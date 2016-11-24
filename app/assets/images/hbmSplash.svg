@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="400px" height="200px" viewBox="0 0 400 200" enable-background="new 0 0 400 200" xml:space="preserve">
+<image display="none" overflow="visible" width="626" height="626" xlink:href="../../../../../Downloads/beer-mug-icon_23-2147501230.jpg"  transform="matrix(0.2396 0 0 0.2396 125 29.999)">
+</image>
+<g>
+	<polyline opacity="0.4" fill="#666666" points="109.429,23.015 9.656,173.958 74.099,199.367 191.641,199.731 353.755,199.355 	"/>
+	<rect x="130" y="18.999" opacity="0.4" fill="#F2F2F2" width="268" height="113"/>
+	
+		<text transform="matrix(1 0 0 1 145.4346 122.499)" fill="#666666" stroke="#666666" stroke-width="2.5474" stroke-miterlimit="10" font-family="'FRINCO'" font-size="68.7797">Monks</text>
+	<text transform="matrix(1 0 0 1 143.7783 121.1006)" fill="#FFEFCF" font-family="'FRINCO'" font-size="68.7797">Monks</text>
+	
+		<text transform="matrix(1 0 0 1 138.9795 58.4321)" fill="#666666" stroke="#666666" stroke-width="2.5474" stroke-miterlimit="10" font-family="'FRINCO'" font-size="43.3057">Homebrew</text>
+	<text transform="matrix(1 0 0 1 137.1973 57.4146)" fill="#FFEFCF" font-family="'FRINCO'" font-size="43.3057">Homebrew</text>
+	<g>
+		<rect x="27" y="41.999" fill="#FED677" width="56" height="140"/>
+		<polygon fill="#E1AA2A" points="27,41.999 7,41.999 7,174.38 27,181.47 		"/>
+		<rect x="97" y="73.999" fill="#FED677" width="27" height="9"/>
+		<rect x="97" y="113.999" fill="#FED677" width="27" height="9"/>
+		<polygon fill="#E1AA2A" points="83,41.999 104,41.999 104,174.38 83,181.47 		"/>
+		<rect x="115" y="80.999" fill="#FED677" width="9" height="42"/>
+		<circle fill="#FFFFFF" cx="76.781" cy="46.656" r="16.887"/>
+		<circle fill="#FFFFFF" cx="49.762" cy="35.398" r="16.887"/>
+		<circle fill="#FFFFFF" cx="94.794" cy="33.146" r="16.887"/>
+		<circle fill="#FFFFFF" cx="18.24" cy="28.644" r="16.887"/>
+		<circle fill="#FFFFFF" cx="60.457" cy="47.219" r="9.569"/>
+		<circle fill="#FFFFFF" cx="31.187" cy="35.961" r="9.569"/>
+		<circle fill="#FFFFFF" cx="33.438" cy="20.2" r="9.569"/>
+		<circle fill="#FFFFFF" cx="51.451" cy="24.703" r="9.569"/>
+		<circle fill="#FFFFFF" cx="71.715" cy="29.206" r="9.569"/>
+		<circle fill="#FFFFFF" cx="62.709" cy="22.452" r="9.569"/>
+		<line fill="#FFEFCF" stroke="#FFEFCF" stroke-width="2" stroke-miterlimit="10" x1="39" y1="68.999" x2="39" y2="165.999"/>
+		<line fill="#FED677" stroke="#FED677" stroke-width="2" stroke-miterlimit="10" x1="93" y1="75.999" x2="93" y2="156.999"/>
+		<line fill="#FED677" stroke="#FED677" stroke-width="2" stroke-miterlimit="10" x1="17" y1="75.999" x2="17" y2="156.999"/>
+		<line fill="#FFEFCF" stroke="#FFEFCF" stroke-width="2" stroke-miterlimit="10" x1="73" y1="68.999" x2="73" y2="165.999"/>
+		<line fill="#FFEFCF" stroke="#FFEFCF" stroke-width="2" stroke-miterlimit="10" x1="57" y1="68.999" x2="57" y2="165.999"/>
+	</g>
+</g>
+</svg>
