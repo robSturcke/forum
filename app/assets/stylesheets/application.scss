@@ -21,6 +21,11 @@
  body {
    font-family: 'Source Sans Pro', sans-serif;
    letter-spacing: .1rem;
+   background-image: url(../images/bubbles3.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
  }
 
  .col-md-2 {
@@ -164,4 +169,11 @@
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     background-color: rgba(0,0,0, 0);
+}
+
+/* Footer */
+.footer {
+  margin-top: 400px;
+  padding: 3rem;
+  background-color: rgb(76, 79, 104);
 }
