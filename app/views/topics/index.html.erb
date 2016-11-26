@@ -2,7 +2,7 @@
   <h1>Current Homebrewing Threads</h1>
   <hr>
    <div class="row">
-     <% if current_user %>
+     <% if current_user.try(:admin?) %>
      <div class="col-md-4">
        <%= link_to "New Topic", new_topic_path, class: 'btn btn-success' %>
      </div>

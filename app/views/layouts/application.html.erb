@@ -58,6 +58,10 @@
       </div><!-- /.container-fluid -->
     </nav>
     <%= yield %>
-    <footer class="footer"><center><%= link_to "Home", root_path %></center></footer>
+    <footer class="footer"><center><%= link_to "Home", root_path %> | <%= link_to "Forum", topics_path %> | <%= link_to "About", about_path %>
+      <br />
+      <br />
+      <a href="http://rsvision.com/">RSVision LLC 2016</a>
+    </center></footer>
   </body>
 </html>

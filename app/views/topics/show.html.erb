@@ -1,8 +1,10 @@
 <div class="container">
   <h1><%= @topic.name %></h1>
   <div class="row">
-    <%= link_to '<i class="icon ion-edit"></i> Edit Topic'.html_safe, edit_topic_path, class: 'topic-link' %> |
-    <%= link_to '<i class="icon ion-ios-trash"></i> Delete Topic'.html_safe, @topic, method: :delete, class: 'topic-link', data: { confirm: 'Are you sure you want to delete this topic?' } %>
+    <% if current_user.try(:admin?) %>
+      <%= link_to '<i class="icon ion-edit"></i> Edit Topic'.html_safe, edit_topic_path, class: 'topic-link' %> |
+      <%= link_to '<i class="icon ion-ios-trash"></i> Delete Topic'.html_safe, @topic, method: :delete, class: 'topic-link', data: { confirm: 'Are you sure you want to delete this topic?' } %>
+    <% end %>
   </div>
   <hr>
    <div class="row">
