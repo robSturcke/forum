@@ -13,7 +13,6 @@
   </head>
 
   <body>
-    <div class="bar-clr"></div>
     <nav class="navbar navbar-default navbar-relative-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -50,8 +49,8 @@
                 </ul>
               </li>
             <% else %>
-              <li><%= link_to "Sign Up", new_user_registration_path %></li>
-              <li><%= link_to "Login", new_user_session_path %></li>
+              <li><%= link_to '<i class="icon ion-arrow-up-a"></i> Sign Up'.html_safe, new_user_registration_path %></li>
+              <li><%= link_to '<i class="icon ion-log-in"></i> Login'.html_safe, new_user_session_path %></li>
             <% end %>
           </ul>
         </div><!-- /.navbar-collapse -->
