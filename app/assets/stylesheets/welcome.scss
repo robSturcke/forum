@@ -154,6 +154,12 @@
   color: inherit;
 }
 
+@media (max-width: 650px) {
+  .timeline-title {
+      font-size: 1.7rem;
+  }
+}
+
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
