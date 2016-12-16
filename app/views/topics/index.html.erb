@@ -4,7 +4,9 @@
    <div class="row">
      <% if current_user.try(:admin?) %>
      <div class="col-md-4">
-       <%= link_to "New Topic", new_topic_path, class: 'btn btn-success' %>
+       <center>
+         <%= link_to "New Topic", new_topic_path, class: 'btn btn-success' %>
+       </center>
      </div>
      <% end %>
      <div class="col-md-8">
